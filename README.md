@@ -1,4 +1,1 @@
-This is a chatting application. The tech stack used are - 
-Frontend - ReactJs
-Backend - NodeJs, ExpressJs
-Database - MongoDB
+This is a chatting application. The tech stack used are - ReactJs (Frontend) NodeJs and ExpressJs (for backend) and MongoDB (Database).
