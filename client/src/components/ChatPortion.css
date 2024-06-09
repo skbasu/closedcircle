@@ -1,0 +1,133 @@
+.chatportion {
+    display: flex;
+    flex-direction: column;
+    flex: 0.50;
+    height: 100vh;
+}
+
+.chatportion__header{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.chatportion__chats{
+    flex: 1;
+    background-color: rgb(209, 207, 207);
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    padding: 12px;
+}
+
+/* For Chats */
+
+.chat__message{
+    position: relative;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 12px;
+    width: fit-content;
+    background-color: white;
+    margin-bottom: 10px;
+    display: flex;
+    font-weight: 500;
+    flex-direction: column;
+}
+
+.chat__receive{
+    margin-left: auto;
+    background-color: #067fe2;
+    color: white;
+    font-weight: 500;
+}
+
+.chat__messageTime {
+    margin-top: 2px;
+    font-size: 9.5px;
+    align-self: flex-end;
+}
+
+
+/* For Groups */
+
+.group__memberName {
+    position: absolute;
+    margin-top: 5px;
+    top: 0px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.group__memberNameNo {
+    display: none;
+}
+
+.group__message {
+    position: relative;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    border-radius: 12px;
+    width: fit-content;
+    background-color: white;
+    margin-bottom: 10px;
+    display: flex;
+    font-weight: 500;
+    flex-direction: column;
+}
+
+.group__receive {
+    margin-left: auto;
+    padding: 10px;
+    background-color: #067fe2;
+    color: white;
+    font-weight: 500;
+}
+
+.group__messageTime {
+    margin-top: 2px;
+    font-size: 9.5px;
+    align-self: flex-end;
+}
+ 
+/* Chat and group send status ---> Delivered */
+
+.chat__sendStatus {
+    position: relative;
+    font-size: x-small;
+    margin-top: -10px;
+    padding: 1px 10px 10px 10px;
+    border-radius: 12px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    color: green;
+}
+
+.chat__recieved {
+    display: none;
+}
+
+/* Footer */
+.chatportion__footer {
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid lightgray;
+}
+
+.chatportion__footer > input {
+    margin: 10px;
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}

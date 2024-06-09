@@ -1,0 +1,7 @@
+.homescreen {
+    display: flex;
+    flex-direction: column;
+}
+.homescreen__container{
+    display: flex;
+}

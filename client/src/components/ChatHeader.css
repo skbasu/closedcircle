@@ -1,0 +1,28 @@
+.chatheader {
+    flex: 1;
+    display: flex;
+    background-color: aliceblue;
+    padding: 10px 10px 1px 10px; 
+}
+
+.chatheader__text > h4 {
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.chatheader__text {
+    flex: 1;
+}
+
+.chatheader__offline {
+    margin-left: 10px;
+    font-size: 13px;
+    color: gray;
+}
+
+.chatheader__online {
+    margin-left: 10px;
+    font-size: 13px;
+    color: green;
+    font-weight: 600;
+}

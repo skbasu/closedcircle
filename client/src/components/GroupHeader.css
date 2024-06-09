@@ -1,0 +1,16 @@
+.groupheader {
+    flex: 1;
+    display: flex;
+    background-color: aliceblue;
+    padding: 10px 10px 2px 10px;
+    align-items: center;
+}
+
+.groupheader__text>h4 {
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.groupheader__text {
+    flex: 1;
+}

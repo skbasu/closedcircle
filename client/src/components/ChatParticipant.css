@@ -1,0 +1,26 @@
+.chatparticipant{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.chatparticipant__text{
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.chatparticipant__text > h4{
+    font-weight: 500;
+}
+
+.chatparticipant__offline {
+    font-size: 13px;
+    color: gray;
+}
+
+.chatparticipant__online {
+    font-size: 13px;
+    color: green;
+    font-weight: 600;
+}
